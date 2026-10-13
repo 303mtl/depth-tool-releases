@@ -29,7 +29,7 @@ so a flat clip becomes a 3D point cloud, LiDAR scan, thermal look, and more.
 **Audio-reactive live typography** — type a word and it reacts to the music with
 block, grid, slice, glitch and scroll modes. Live Syphon output for your VJ rig.
 
-**Download:** [latest .dmg »](https://github.com/303mtl/depth-tool-releases/releases/tag/typo-v1.0.0)
+**Download:** [latest .dmg »](https://github.com/303mtl/depth-tool-releases/releases?q=TYPOPLUGIN303)
 
 ---
 
