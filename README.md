@@ -1,55 +1,37 @@
-# 303 Tools — Releases
+# 303 Tools
 
-Public download & auto-update home for two macOS visual tools by **303mtl**.
-This repo holds the finished, ready-to-run apps only — no source code.
-
----
+This is the download and update home for two macOS visual tools I make. Only the finished apps live here. The source code stays private.
 
 ## 303 Depth Tool (Kinect Depth Studio)
 
-Turn **any video into an audio-reactive depth / point-cloud visual** — no Kinect
-needed. Depth is estimated on your Mac's GPU by an AI model (Depth Anything V2),
-so a flat clip becomes a 3D point cloud, LiDAR scan, thermal look, and more.
+Drop in any video and it turns into a live, audio reactive depth visual. An AI model estimates depth right on your Mac's GPU, so a flat clip becomes a 3D point cloud, a LiDAR scan or a thermal look. No Kinect and no sensor, just the video.
 
-- **Drop in a video** → it's analysed once and cached.
-- **10 looks** (KINECT RED, LIDAR WHITE, THERMAL SCAN, DEPTH EXPLOSION, RGB POINT
-  CLOUD, INFRARED, DROP STREAK, CUTOUT BOUNCE, XBOX DEPTH, LIVE — KICK EXPLOSION).
-- **Scenes** — save a whole look to a slot and recall it with one click.
-- **Audio-reactive** — feed a live audio input and the visuals move with the music.
-- **Live output to Resolume / OBS / TouchDesigner** via **Syphon** (local) and
-  **NDI** (over the network, also Mac → Windows).
-- **Export** H.264 / H.265 / ProRes 4444 (with alpha).
+You get ten looks to start from, like KINECT RED, LIDAR WHITE, THERMAL SCAN and RGB POINT CLOUD. Save any look to a scene and recall it with one click while you play. Feed it a live audio input and the visuals move with the music.
 
-**Download:** [latest .dmg »](https://github.com/303mtl/depth-tool-releases/releases/latest)
+When it is time to go on screen, the output goes straight into Resolume, OBS or TouchDesigner. Syphon handles it locally on the same Mac, and NDI sends it over the network, even from a Mac to a Windows machine. When you want a file instead, it exports in H.264, H.265 or ProRes 4444 with alpha.
 
----
+[Download the latest version](https://github.com/303mtl/depth-tool-releases/releases)
 
 ## TYPOPLUGIN303
 
-**Audio-reactive live typography** — type a word and it reacts to the music with
-block, grid, slice, glitch and scroll modes. Live Syphon output for your VJ rig.
+Type a word and watch it react to the music. It has block, grid, slice, glitch and scroll modes, with live Syphon output for your VJ rig.
 
-**Download:** [latest .dmg »](https://github.com/303mtl/depth-tool-releases/releases?q=TYPOPLUGIN303)
+[Download it here](https://github.com/303mtl/depth-tool-releases/releases?q=TYPOPLUGIN303)
 
----
+## Installing
 
-## Install (first time only)
+Open the dmg and drag the app onto your Applications folder. The first time you open it, macOS will block it, because the app is not notarised by Apple. Go to System Settings, then Privacy and Security, scroll to the bottom and click Open Anyway, then confirm.
 
-1. Open the `.dmg` and drag the app onto **Applications**.
-2. Double-click it once — macOS blocks it (the app is not notarised by Apple).
-3. **System Settings → Privacy & Security → "Open Anyway"**, then confirm.
-   If it says *"is damaged"*, run once in Terminal:
-   `xattr -dr com.apple.quarantine "/Applications/<App Name>.app"`
+If macOS says the app is damaged instead, open Terminal once and run this line:
 
-After that, **updates are one click**: when a new version is out, the app shows
-*"Update available → Update now"* on launch and replaces itself.
+```
+xattr -dr com.apple.quarantine "/Applications/Kinect Depth Studio.app"
+```
 
-**Requirements:** Apple Silicon Mac (M1 or newer), macOS 14 (Sonoma) or newer.
-NDI output needs the free [NDI Tools](https://ndi.video/tools/) runtime installed.
+After that first launch you never have to do it again. When a new version comes out, the app tells you on startup and updates itself with one click.
 
----
+You need an Apple Silicon Mac (M1 or newer) on macOS 14 Sonoma or later. NDI output needs the free NDI Tools runtime installed.
 
-## Credits
+## Thanks
 
-Thanks to **Giannis Veronis** ([@giannisveronis](https://github.com/giannisveronis))
-for the Scenes idea and the NDI output, which were adapted into the Depth Tool.
+Big thanks to Giannis Veronis ([@giannisveronis](https://github.com/giannisveronis)) for the Scenes idea and the NDI output in the Depth Tool.
