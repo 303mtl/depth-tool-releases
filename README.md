@@ -1,8 +1,8 @@
-# 303 Tools
+# 303 Depth Tool
 
-This is the download and update home for two macOS visual tools I make. Only the finished apps live here. The source code stays private.
+Downloads and automatic updates for the 303 Depth Tool on macOS. Only the finished app lives here. The source code stays private.
 
-## 303 Depth Tool (Kinect Depth Studio)
+## What it does
 
 Drop in any video and it turns into a live, audio reactive depth visual. An AI model estimates depth right on your Mac's GPU, so a flat clip becomes a 3D point cloud, a LiDAR scan or a thermal look. No Kinect and no sensor, just the video.
 
@@ -10,13 +10,9 @@ You get ten looks to start from, like KINECT RED, LIDAR WHITE, THERMAL SCAN and 
 
 When it is time to go on screen, the output goes straight into Resolume, OBS or TouchDesigner. Syphon handles it locally on the same Mac, and NDI sends it over the network, even from a Mac to a Windows machine. When you want a file instead, it exports in H.264, H.265 or ProRes 4444 with alpha.
 
-[Download the latest version](https://github.com/303mtl/depth-tool-releases/releases)
+## Download
 
-## TYPOPLUGIN303
-
-Type a word and watch it react to the music. It has block, grid, slice, glitch and scroll modes, with live Syphon output for your VJ rig.
-
-[Download it here](https://github.com/303mtl/depth-tool-releases/releases?q=TYPOPLUGIN303)
+[Get the latest version](https://github.com/303mtl/depth-tool-releases/releases/latest)
 
 ## Installing
 
@@ -34,4 +30,4 @@ You need an Apple Silicon Mac (M1 or newer) on macOS 14 Sonoma or later. NDI out
 
 ## Thanks
 
-Big thanks to Giannis Veronis ([@giannisveronis](https://github.com/giannisveronis)) for the Scenes idea and the NDI output in the Depth Tool.
+Big thanks to Giannis Veronis ([@giannisveronis](https://github.com/giannisveronis)) for the Scenes idea and the NDI output.
