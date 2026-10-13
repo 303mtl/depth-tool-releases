@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "url": "https://github.com/303mtl/depth-tool-releases/releases/download/v1.0.0/KinectDepthStudio.zip",
+  "dmg": "https://github.com/303mtl/depth-tool-releases/releases/download/v1.0.0/KinectDepthStudio.dmg",
+  "notes": "Erste Version: 10 kuratierte Effekte, Szenen-Speicher, neuer Look, Auto-Update.",
+  "date": "2026-10-13"
+}
