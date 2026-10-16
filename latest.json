@@ -5,10 +5,10 @@
   "notes": "Layout fix: with portrait (9:16) videos the preview no longer pushes the timeline off-screen. New: drag the edges of the side panels to resize them, and drag the bar above the view buttons to make the timeline taller. Double-click a handle to reset.",
   "date": "2026-10-16",
   "win": {
-    "version": "1.0.2",
-    "url": "https://github.com/303mtl/depth-tool-releases/releases/download/win-v1.0.2/KinectDepthStudio-win.zip",
-    "installer": "https://github.com/303mtl/depth-tool-releases/releases/download/win-v1.0.2/KinectDepthStudio-Setup.exe",
-    "notes": "Kinect Depth Studio 1.0.2 for Windows. Spout + NDI output, live audio, GPU or CPU export.",
+    "version": "1.0.3",
+    "url": "https://github.com/303mtl/depth-tool-releases/releases/download/win-v1.0.3/KinectDepthStudio-win.zip",
+    "installer": "https://github.com/303mtl/depth-tool-releases/releases/download/win-v1.0.3/KinectDepthStudio-Setup.exe",
+    "notes": "Layout fix: with portrait (9:16) videos the preview no longer pushes the timeline off-screen. New: drag the edges of the side panels to resize them, and drag the bar above the view buttons to make the timeline taller. Double-click a handle to reset.",
     "date": "2026-10-16"
   }
 }
