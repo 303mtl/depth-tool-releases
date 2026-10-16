@@ -1,7 +1,7 @@
 {
-  "version": "1.0.2",
-  "url": "https://github.com/303mtl/depth-tool-releases/releases/download/v1.0.2/KinectDepthStudio.zip",
-  "dmg": "https://github.com/303mtl/depth-tool-releases/releases/download/v1.0.2/KinectDepthStudio.dmg",
-  "notes": "303 Depth Tool — turn any video into an audio-reactive depth / point-cloud visual. AI depth on your Mac GPU (no Kinect needed): 3D point clouds, LiDAR, thermal and more. 10 looks, Scenes (save/recall), audio-reactive, live output via Syphon + NDI (Resolume/OBS, also Mac to Windows), export H.264/H.265/ProRes 4444. English UI + auto-update. First launch: System Settings > Privacy & Security > Open Anyway. Apple Silicon, macOS 14+. Thanks to @giannisveronis for the Scenes idea and NDI output.",
-  "date": "2026-10-13"
+  "version": "1.0.3",
+  "url": "https://github.com/303mtl/depth-tool-releases/releases/download/v1.0.3/KinectDepthStudio.zip",
+  "dmg": "https://github.com/303mtl/depth-tool-releases/releases/download/v1.0.3/KinectDepthStudio.dmg",
+  "notes": "Layout fix: with portrait (9:16) videos the preview no longer pushes the timeline off-screen. New: drag the edges of the side panels to resize them, and drag the bar above the view buttons to make the timeline taller. Double-click a handle to reset.",
+  "date": "2026-10-16"
 }
