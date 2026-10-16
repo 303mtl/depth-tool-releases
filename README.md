@@ -14,7 +14,7 @@ When it is time to go on screen, the output goes straight into Resolume, OBS or 
 
 **Mac:** [Get the latest version](https://github.com/303mtl/depth-tool-releases/releases/latest) and download the `.dmg`.
 
-**Windows:** [Download the installer](https://github.com/303mtl/depth-tool-releases/releases/download/win-v1.0.2/KinectDepthStudio-Setup.exe) (about 650 MB).
+**Windows:** [Download the installer](https://github.com/303mtl/depth-tool-releases/releases/download/win-v1.0.3/KinectDepthStudio-Setup.exe) (about 650 MB).
 
 ## Installing on a Mac
 
