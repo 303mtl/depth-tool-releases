@@ -8,7 +8,7 @@ Drop in any video and it turns into a live, audio reactive depth visual. An AI m
 
 You get ten looks to start from, like KINECT RED, LIDAR WHITE, THERMAL SCAN and RGB POINT CLOUD. Save any look to a scene and recall it with one click while you play. Feed it a live audio input and the visuals move with the music.
 
-New in 1.0.4 on the Mac: INFERNO. One button at the top right switches to a second mode with a clip bank, where a wave of light runs through the depth of each clip, from near to far, on every kick or every bar. It comes with a pure depth look and AUDIO DEPTH, the point cloud looks driven by your music, and has its own Syphon output called INFERNO Pulse. The Depth Tool keeps running in the background while you play INFERNO.
+New on the Mac: 303 PULSE. One button at the top right switches to a second mode with its own clip bank. Drop in your own clips, each one is analysed once on your Mac, and then a wave of light runs through its depth, from near to far, on every kick or every bar. It comes with a pure depth look and AUDIO DEPTH, the point cloud looks driven by your music, and has its own Syphon output called 303 PULSE. The Depth Tool keeps running in the background while you play.
 
 When it is time to go on screen, the output goes straight into Resolume, OBS or TouchDesigner. Syphon (Mac) or Spout (Windows) handles it locally on the same machine, and NDI sends it over the network, even between a Mac and a PC. When you want a file instead, it exports in H.264, H.265 or ProRes 4444 with alpha.
 
@@ -42,7 +42,7 @@ You need 64 bit Windows 10 or 11. Depth analysis runs on the processor, so the f
 
 ## Something not working?
 
-Open the Help menu in the app and click Copy Diagnostics (or press Cmd+Option+D), then paste it into a message to us. It contains the app version, the status of the servers and outputs and the last lines of the logs, nothing from your clips. If INFERNO stops reacting, Help, then Restart INFERNO Server usually brings it back without closing the app. Show Log Files opens the folder with all logs.
+Open the Help menu in the app and click Copy Diagnostics (or press Cmd+Option+D), then paste it into a message to us. It contains the app version, the status of the servers and outputs and the last lines of the logs, nothing from your clips. If 303 PULSE stops reacting, Help, then Restart 303 PULSE Server usually brings it back without closing the app. Show Log Files opens the folder with all logs.
 
 ## Thanks
 
