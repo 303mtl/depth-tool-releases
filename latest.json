@@ -1,8 +1,8 @@
 {
-  "version": "1.0.4",
-  "url": "https://github.com/303mtl/depth-tool-releases/releases/download/v1.0.4/KinectDepthStudio.zip",
-  "dmg": "https://github.com/303mtl/depth-tool-releases/releases/download/v1.0.4/KinectDepthStudio.dmg",
-  "notes": "New: INFERNO. A second mode with a clip bank, where a wave of light runs through the depth of each clip on every kick or every bar. Includes a pure depth look, AUDIO DEPTH and its own Syphon output INFERNO Pulse. Also new: Help menu with Copy Diagnostics (Cmd+Option+D), Show Log Files and Restart INFERNO Server.",
+  "version": "1.0.5",
+  "url": "https://github.com/303mtl/depth-tool-releases/releases/download/v1.0.5/KinectDepthStudio.zip",
+  "dmg": "https://github.com/303mtl/depth-tool-releases/releases/download/v1.0.5/KinectDepthStudio.dmg",
+  "notes": "INFERNO is now called 303 PULSE. Drop in your own clips, each one is analysed once on your Mac, then a wave of light runs through its depth on every kick or every bar. Fixes: clicking the 303 PULSE button several times no longer opens extra windows (that stopped the Syphon output), the servers now always close together with the app, and new installs start with a 1920 x 1080 output.",
   "date": "2026-11-27",
   "win": {
     "version": "1.0.3",
