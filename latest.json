@@ -1,9 +1,9 @@
 {
-  "version": "1.0.3",
-  "url": "https://github.com/303mtl/depth-tool-releases/releases/download/v1.0.3/KinectDepthStudio.zip",
-  "dmg": "https://github.com/303mtl/depth-tool-releases/releases/download/v1.0.3/KinectDepthStudio.dmg",
-  "notes": "Layout fix: with portrait (9:16) videos the preview no longer pushes the timeline off-screen. New: drag the edges of the side panels to resize them, and drag the bar above the view buttons to make the timeline taller. Double-click a handle to reset.",
-  "date": "2026-10-16",
+  "version": "1.0.4",
+  "url": "https://github.com/303mtl/depth-tool-releases/releases/download/v1.0.4/KinectDepthStudio.zip",
+  "dmg": "https://github.com/303mtl/depth-tool-releases/releases/download/v1.0.4/KinectDepthStudio.dmg",
+  "notes": "New: INFERNO. A second mode with a clip bank, where a wave of light runs through the depth of each clip on every kick or every bar. Includes a pure depth look, AUDIO DEPTH and its own Syphon output INFERNO Pulse. Also new: Help menu with Copy Diagnostics (Cmd+Option+D), Show Log Files and Restart INFERNO Server.",
+  "date": "2026-11-27",
   "win": {
     "version": "1.0.3",
     "url": "https://github.com/303mtl/depth-tool-releases/releases/download/win-v1.0.3/KinectDepthStudio-win.zip",
